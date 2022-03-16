@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Divs e Span</title>
+
+		<style type="text/css">
+			
+			#topo{
+				background: blue;
+			}
+
+
+			#conteudo{
+				background: blueviolet;
+			}
+
+			#rodape{
+				background: green;
+			}
+
+			.produto{
+				background: gray;
+				margin: 10px;
+			}
+		</style>
+
+	</head>
+
+	<!-- As Div é uma tag utilizada para a organização dos conteúdos dentro de uma página de maneira
+	estruturada sendo utilizado como base sendo do top block ou seja eles ficam agrupado um abaixo do
+	outro-->
+	<body>
+
+		<div id="topo">
+			<img src="" width="200">
+
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contatos</li>
+			</ul>
+		</div>
+
+
+
+		<div id="conteudo">
+			
+
+			<div class="produto">
+				Produto 1
+			</div>
+
+			<div class="produto">
+				Produto 2
+			</div>
+
+			<div class="produto">
+				Produto 3				
+			</div>
+
+		</div>
+
+
+		<!-- O span funciona de maneira parecida com a da div com uma diferença de utilização 
+		os div crião bloco para serem modificado e o span é um elemento de linha em que outros 
+		onteúdos são colocados uma ao lado do outro -->
+		<div id="rodape">
+			Todos os <span style="color:pink">direitos</span> reservados
+		</div>
+
+	</body>
+</html>
